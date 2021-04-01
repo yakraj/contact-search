@@ -1,0 +1,79 @@
+.Box{
+	cursor:pointer;
+	width:19rem;
+}
+.Image{
+	height:10rem;
+	width:18rem;
+}
+.Text{
+	width:11rem;
+
+}
+
+.Wrap{
+	  overflow-wrap: break-word;
+	  font-weight: bold;
+	  color:green;
+}
+.stick{
+	position: sticky;
+}
+.Loading{
+
+	height:80px;
+	width:80px;
+	background-color:red;
+	border:10px solid skyblue;
+	animation: Loading 1s infinite linear;
+}
+.antoher {
+	display:flex;
+	left:50%;
+}
+
+@keyframes Loading {
+	0% {
+	background-color:red;
+	height:80px;
+	width:80px;
+	border:10px solid skyblue;
+	border-radius:0%;
+	transform:rotate(0deg);
+	}
+	50%{
+	background-color:skyblue;	
+	height:80px;
+	width:80px;
+	border:10px solid red;
+	border-radius:50%;
+	transform:rotate(180deg);
+	}
+	100%{
+background-color:red;
+	height:80px;
+	width:80px;
+	border:10px solid skyblue;
+	border-radius:0%;
+	transform:rotate(360deg);
+	}
+}
+.Ltext {
+	margin:20px;
+	font-family:cursive;
+	font-weight:bold;
+	letter-spacing:5px;
+	font-size:2rem;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content:center;
+}
+.Loadingcontect{
+	cursor:pointer;
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+	flex-direction:column;
+
+}
